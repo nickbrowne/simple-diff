@@ -6,9 +6,15 @@ The original Diff, Match and Patch library can be found [here](http://code.googl
 
 ### Usage
 
-```
+```javascript
 simple_diff = new simple_diff()
 html = simple_diff.render(text1, text2)
+```
+
+To style it just add some css for del and ins elements. For example:
+```CSS
+del { background-color: #ffdddd; }
+ins { background-color: #ddffdd; }
 ```
 
 ### License
