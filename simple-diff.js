@@ -1,4 +1,5 @@
 /**
+ * v0.0.1
  * Simple Diff is based on Diff Match and Patch
  *
  * There are quite a few structual changes to the code. The match and patch
