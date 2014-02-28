@@ -1145,10 +1145,10 @@ simple_diff.prototype.render = function(text1, text2) {
           .replace(pattern_gt, '&gt;').replace(pattern_para, '&para;<br>');
       switch (op) {
         case DIFF_INSERT:
-          html[x] = '<ins style="background:#e6ffe6;">' + text + '</ins>';
+          html[x] = '<ins>' + text + '</ins>';
           break;
         case DIFF_DELETE:
-          html[x] = '<del style="background:#ffe6e6;">' + text + '</del>';
+          html[x] = '<del>' + text + '</del>';
           break;
         case DIFF_EQUAL:
           html[x] = '<span>' + text + '</span>';
